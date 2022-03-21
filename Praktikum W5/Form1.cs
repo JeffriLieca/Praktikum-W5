@@ -15,12 +15,17 @@ namespace Praktikum_W5
         public void CekWarna()
         {
             if (cBoxAktif.Checked)
+            {
+
                 if (rButtMerah.Checked)
                     labelTulisan.ForeColor = Color.Red;
                 else if (rButtBiru.Checked)
                     labelTulisan.ForeColor = Color.Blue;
+            }
             else
+            {
                 labelTulisan.ForeColor = Color.Black;
+            }
         }
         public FormMateri()
         {
@@ -45,6 +50,7 @@ namespace Praktikum_W5
                 MessageBox.Show("Input Kembar");
             else
                 lBoxKoleksi.Items.Add(tBoxData.Text);
+            tBoxData.Focus();
         }
 
         private void cBoxAktif_CheckedChanged(object sender, EventArgs e)
