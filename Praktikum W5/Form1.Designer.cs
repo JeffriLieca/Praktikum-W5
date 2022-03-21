@@ -58,7 +58,6 @@ namespace Praktikum_W5
             this.tBoxData.Name = "tBoxData";
             this.tBoxData.Size = new System.Drawing.Size(321, 27);
             this.tBoxData.TabIndex = 1;
-            this.tBoxData.TextChanged += new System.EventHandler(this.tBData_TextChanged);
             // 
             // labelKoleksi
             // 
@@ -158,9 +157,9 @@ namespace Praktikum_W5
             this.labelTulisan.Font = new System.Drawing.Font("Segoe UI Historic", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelTulisan.Location = new System.Drawing.Point(355, 237);
             this.labelTulisan.Name = "labelTulisan";
-            this.labelTulisan.Size = new System.Drawing.Size(135, 67);
+            this.labelTulisan.Size = new System.Drawing.Size(163, 67);
             this.labelTulisan.TabIndex = 11;
-            this.labelTulisan.Text = "Halo";
+            this.labelTulisan.Text = "HALO";
             // 
             // FormMateri
             // 

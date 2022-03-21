@@ -14,30 +14,17 @@ namespace Praktikum_W5
     {
         public void CekWarna()
         {
-            if (cBoxAktif.Checked == true)
-            {
-                if (rButtMerah.Checked == true)
-                {
+            if (cBoxAktif.Checked)
+                if (rButtMerah.Checked)
                     labelTulisan.ForeColor = Color.Red;
-                }
-                else if (rButtBiru.Checked == true)
-                {
+                else if (rButtBiru.Checked)
                     labelTulisan.ForeColor = Color.Blue;
-                }
-            }
             else
-            {
                 labelTulisan.ForeColor = Color.Black;
-            }
         }
         public FormMateri()
         {
             InitializeComponent();
-        }
-
-        private void tBData_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void lBoxKoleksi_SelectedIndexChanged(object sender, EventArgs e)
@@ -55,13 +42,9 @@ namespace Praktikum_W5
         private void buttAdd_Click(object sender, EventArgs e)
         {
             if (lBoxKoleksi.Items.Contains(tBoxData.Text))
-            {
                 MessageBox.Show("Input Kembar");
-            }
             else
-            {
                 lBoxKoleksi.Items.Add(tBoxData.Text);
-            }
         }
 
         private void cBoxAktif_CheckedChanged(object sender, EventArgs e)
