@@ -66,6 +66,7 @@ namespace Praktikum_W5
             lBoxKoleksi.Items.Clear();
             rButtMerah.Checked = true;
             tBoxData.Text = "";
+            tBoxData.Focus();
         }
 
         private void rButtMerah_CheckedChanged(object sender, EventArgs e)
