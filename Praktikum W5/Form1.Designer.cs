@@ -155,10 +155,10 @@ namespace Praktikum_W5
             // labelTulisan
             // 
             this.labelTulisan.AutoSize = true;
-            this.labelTulisan.Font = new System.Drawing.Font("Segoe UI Historic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelTulisan.Font = new System.Drawing.Font("Segoe UI Historic", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.labelTulisan.Location = new System.Drawing.Point(355, 237);
             this.labelTulisan.Name = "labelTulisan";
-            this.labelTulisan.Size = new System.Drawing.Size(160, 81);
+            this.labelTulisan.Size = new System.Drawing.Size(135, 67);
             this.labelTulisan.TabIndex = 11;
             this.labelTulisan.Text = "Halo";
             // 
